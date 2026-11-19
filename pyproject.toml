@@ -1,0 +1,10 @@
+[project]
+name = "huvec-damage"
+version = "1.0.0"
+description = "Segment HUVEC endothelial damage on 4x brightfield images, QC every result, export % damage to Excel."
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------
+# NDA protection: images, ROIs, results, spreadsheets and trained
+# models must NEVER be committed. Only code lives in this repo.
+# ---------------------------------------------------------------
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.roi
+*.zip
+*.pth
+*.pt
+*.npy
+*.npz
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.jpg
+*.jpeg
+*.png
+!docs/screenshots/*.png
+!docs/screenshots/*.jpg
+workspace/
+local_settings.json
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

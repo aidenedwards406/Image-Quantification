@@ -1,0 +1,17 @@
+# Local-only app: reachable from this computer only, no usage statistics sent.
+[server]
+address = "localhost"
+port = 8501
+headless = false          # open the browser automatically
+maxUploadSize = 4000      # MB per file
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#2F6FB0"
